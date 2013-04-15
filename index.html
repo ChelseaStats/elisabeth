@@ -1,74 +1,140 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Elisabeth : A one page bootstrapped  HTML/CSS Boilerplate" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Elisabeth</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/TheCellarRoom/Elisabeth">View on GitHub</a>
-
-          <h1 id="project_title">Elisabeth</h1>
-          <h2 id="project_tagline">A one page bootstrapped  HTML/CSS Boilerplate</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/TheCellarRoom/Elisabeth/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/TheCellarRoom/Elisabeth/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="dns-prefetch" href="//github.com">
+<link rel="dns-prefetch" href="//html5shim.googlecode.com">
+<link rel="dns-prefetch" href="//code.jquery.com">        
+<meta charset="utf-8">
+<title>Elisabeth - a bootstrapped one page html/css mobile app friendly boilerplate</title>
+<meta name="author" content="TheCellarRoom/ @TheCellarRoom">
+<meta name="google-site-verification" content="xxxxxxx" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1;">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description"	content="Elisabeth - a bootstrapped one page html/css mobile app friendly boilerplate">
+<meta name="keywords" 		content="">
+<meta name="author" 		content="TheCellarRoom">
+<meta name="robots" 		content="noindex"/>
+<link rel="apple-touch-startup-image" href="ico/default.png" />
+<link rel="shortcut icon" href="ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" 	href="ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" 	href="ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" 		href="ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" 					href="ico/apple-touch-icon-57-precomposed.png">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="js/google-code-prettify/prettify.css">
+<link rel="stylesheet" href="css/custom.css">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- Analytics ------------------------------------------------------>
+<!-- Early on incase people quit before it's all loaded ------------->
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+  _gaq.push(['_trackEvent']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body data-spy="scroll" data-twttr-rendered="true" data-offset="-40">
+<!-- Navbar --------------------------------------------------------->
+<nav>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+		<ul>
+          <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Elisabeth</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+			  <li><a href="#a">link A</a></li>
+			  <li><a href="#b">link B</a></li>
+              <li><a href="#c">link C</a></li>
+			  <li><a href="#d">link D</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			</ul>
+          </div>
+		 </ul> 
+        </div>
+      </div>
     </div>
+</nav>
+<div class="container" style="padding-top: 40px;">
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Elisabeth maintained by <a href="https://github.com/TheCellarRoom">TheCellarRoom</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+<!--- Main content insider container wrapper --------------------->
+	
+	<div class="content" id="top">
+		<div id="circle">Elisabeth</div>
+		<h1 class="color">Elisabeth</h1>
+		<p> <small>something short and witty with an icon below.</small> 
+			<br/><i class="icon-tags"></i>
+		</p>
+	</div>
+	<hr class="hr" />
+	<div class="content" id="a">
+	</div>
+	<hr class="hr" />
+	<div class="content" id="b">
+	</div>
+	<hr class="hr" />
+	<div class="content" id="c">
+	</div>
+	<hr class="hr" />
+	<div class="content" id="d">
+	</div>
+	
+<!-- footer ------------------------------------------------------>			
+		<hr/>
+	<article class="container" id="contact">	
+		<hr class="hr" />
+		<div class="row" id="name-contact">
+			<div class="span12">
+					<h3>Contact</h3>
+			</div>
+			<div class="span12">
+				<div class="row">
+					<div class="span4">
+						<p>
+							<small>
+							<i class="icon-envelope"></i> <span >email@domain.com</span><br/>
+							<i class="icon-bell"></i> <span >+44 (0) 1234 567 890</span><br/>
+							<i class="icon-retweet"></i> <span ><a href="http://twitter.com/twitterhandle">name (@twitterhandle)</a></span><br/>
+							<i class="icon-wrench"></i> <span >Designed by <a href="//TheCellarRoom.net">TCR</a> (
+							<a href="http://www.twitter.com/TheCellarRoom">@theCellarRoom</a>)</span><br/>
+							<i class="icon-info-sign"></i> <span >&copy; <?php echo Date('Y'); ?>  All Rights Reserved</span><br/>
+							
+							</small>
+						</p>
+					</div>
+					<div class="span8">
+						<p class="pull-right">
+							<br/><br/><br/><br/>
+							<small><a href="#">Back to top</a></small>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+<!-- closing container div --------------------------------------->
+</div>
+<!-- scripts ------------------------------------------------------>
+<!-- here so they load last --------------------------------------->
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/bootstrap.min.js"></script>
   </body>
 </html>

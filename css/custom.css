@@ -1,0 +1,60 @@
+/*!
+ * TheCellarRoom
+ *
+ * Copyright 2012 TheCellarRoom
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Custom addons for templates
+ */
+ 
+.color {#7C739A}
+#circle {
+background-color: #7C739A;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+color: white;
+font-family: 'Lobster', cursive;
+font-size: 1em;
+height: 100px;
+line-height: 100px;
+margin: 0 auto;
+text-align: center;
+width: 100px;
+}
+
+
+div.content {
+text-align: center;
+margin-top: 1.5em;
+}
+
+article { 
+padding-top: 50px; 
+}
+
+hr { 
+border-top: #999 1px dashed;
+}
+
+.hr-solid { 
+border-top:1px solid #666; 
+}
+
+
+.just { 
+text-align: justify; 
+}
+
+.left { 
+text-align: left;  
+}
+
+.right {
+text-align: right; 
+}
+
+.centre {
+text-align: center; 
+}
